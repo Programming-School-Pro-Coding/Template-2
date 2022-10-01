@@ -1,0 +1,169 @@
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0D69D5;
+    --orange-color: #F59E0B;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+
+/* Start Box */
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.block {
+    display: block;
+}
+/* End Box */
+
+/* Start Color */
+.bg-white {
+    background-color: white;
+}
+.bg-eee {
+    background-color: #EEE;
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.c-black {
+    color: black;
+}
+.c-grey {
+    color: var(--grey-color);
+}
+.c-white {
+    color: white;
+}
+.c-blue {
+    color: var(--blue-color);
+}
+/* End Color */
+/* Start Padding & Margin */
+.p-10 {
+    padding: 10px;
+}
+.p-15 {
+    padding: 15px;
+}
+.p-20 {
+    padding: 20px;
+}
+.m-0 {
+    margin: 0;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.w-full {
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.gap-20 {
+    gap: 20px;
+}
+/* End Padding & Margin */
+/* Start Position */
+.relative {
+    position: relative;
+}
+/* End Position */
+/* Start Font */
+.txt-c {
+    text-align: center;
+}
+.align-center {
+    align-items: center;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.space-between {
+    justify-content: space-between;
+}
+.over-hidden {
+    overflow: hidden;
+}
+.fw-bold {
+    font-weight: bold;
+}
+/* End Font */
+/* Start Components */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/* End Components */
+/* Start Border */
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.border-c {
+    border: 1px solid #CCC;
+}
+.b-none {
+    border: none;
+}
+/* End Border */
+/* Start Mobile */
+@media (max-width: 767px) {
+    /* Start Mobile Font */
+    .txt-c-mobile {
+        text-align: center;
+    }
+    /* End Mobile Font */
+    /* Start Box Mobile */
+    .block-mobile {
+        display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    /* End Box Mobile */
+}
+/* End Mobile */

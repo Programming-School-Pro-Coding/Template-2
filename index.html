@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/framework.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/e9cb051e82.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="page flex">
+      <div class="sidebar bg-white p-20 relative">
+        <h3 class="relative txt-c mt-0">PGSM</h3>
+        <ul>
+          <li>
+            <a
+              class="active flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-solid fa-chart-column fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex align-center fs-14 c-black rad-6 p-10"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex align-center fs-14 c-black rad-6 p-10"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex align-center fs-14 c-black rad-6 p-10"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex align-center fs-14 c-black rad-6 p-10"
+              href="courses.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex align-center fs-14 c-black rad-6 p-10"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="flex align-center fs-14 c-black rad-6 p-10"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full over-hidden">
+        <!-- Start Head -->
+        <div class="head bg-white p-15 between-flex">
+          <div class="search relative">
+            <input
+              type="search"
+              placeholder="Type A Keyword"
+              class="p-10 border-c rad-10"
+            />
+          </div>
+          <div class="icons flex align-center">
+            <span class="notification relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="img/Showwcase.png" alt="" />
+          </div>
+        </div>
+        <!-- End Head -->
+        <h1 class="relative">Dashboard</h1>
+        <div class="wrapper grid gap-20">
+          <!-- Start Welcome Widget -->
+          <div class="welcome bg-white rad-10 txt-c-mobile block-mobile">
+            <div class="intro p-20 flex space-between bg-eee">
+              <div>
+                <h2 class="m-0">Welcome</h2>
+                <p class="c-grey mt-5">PGSM</p>
+              </div>
+              <img src="img/welcome.png" class="hide-mobile" />
+            </div>
+            <img src="img/Showwcase.png" alt="" class="avater" />
+            <div class="body txt-c flex p-20 mt-20 mb-20 block-mobile">
+              <div>
+                Mohamed Ehab
+                <span class="block c-grey fs-14 mt-10"
+                  >Full Stack Developer</span
+                >
+              </div>
+              <div>
+                50+ <span class="block c-grey fs-14 mt-10">Projects</span>
+              </div>
+              <div>
+                4+
+                <span class="block c-grey fs-14 mt-10"
+                  >Years of Experience</span
+                >
+              </div>
+            </div>
+            <a
+              href="profile.html"
+              class="visit block fs-14 bg-blue c-white w-fit btn-shape"
+              >Visit Profile</a
+            >
+          </div>
+          <!-- End Welcome Widget -->
+          <!-- Start Quick Draft Widget -->
+          <div class="quick-draft p-20 bg-white rad-10">
+            <h2 class="mt-0 mb-10">Quick Draft</h2>
+            <p class="mt-0 mb-20 c-gey fs-15">Write A Draft for Your Ideas</p>
+            <form>
+              <input
+                type="text"
+                class="block mb-20 w-full p-10 b-none bg-eee rad-6"
+                placeholder="Title"
+              />
+              <textarea
+                class="block mb-20 w-full p-10 b-none bg-eee rad-6"
+                placeholder="Your Thought"
+              ></textarea>
+              <input
+                type="submit"
+                class="save block fs-14 bg-blue b-none w-fit btn-shape c-white"
+                value="Save"
+              />
+            </form>
+          </div>
+          <!-- End Quick Draft Widget -->
+          <!-- Start Targets -->
+          <div class="targets p-20 bg-white rad-10">
+            <h2 class="mt-0 mb-10">Yearly Targets</h2>
+            <p class="mt-0 mb-20 c-grey fs-15">Targets Of The Year</p>
+            <div class="target-row mb-20 blue center-flex">
+              <div class="icon center-flex">
+                <i class="fa-brands fa-leanpub fa-lg c-blue"></i>
+              </div>
+              <div class="details">
+                <span class="fs-14 c-grey">Learn More Languages</span>
+                <span class="block mt-5 mb-10 fw-bold">2</span>
+                <div class="progress relative">
+                  <span class="bg-blue blue" style="width: 60%">
+                    <span class="bg-blue c-white">60%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="target-row mb-20 orange center-flex">
+              <div class="icon center-flex">
+                <i class="fa-solid fa-code fa-lg c-orange"></i>
+              </div>
+              <div class="details">
+                <span class="fs-14 c-grey">Projects</span>
+                <span class="block mt-5 mb-10 fw-bold">10</span>
+                <div class="progress relative">
+                  <span class="bg-orange orange" style="width: 40%">
+                    <span class="bg-orange c-white">40%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="target-row mb-20 green center-flex">
+              <div class="icon center-flex">
+                <i class="fa-solid fa-graduation-cap fa-lg c-green"></i>
+              </div>
+              <div class="details">
+                <span class="fs-14 c-grey">Courses</span>
+                <span class="block mt-5 mb-10 fw-bold">3</span>
+                <div class="progress relative">
+                  <span class="bg-green green" style="width: 65%">
+                    <span class="bg-green c-white">65%</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Targets -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
