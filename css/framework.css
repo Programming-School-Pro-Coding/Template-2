@@ -47,8 +47,17 @@
 .c-blue {
     color: var(--blue-color);
 }
+.c-orange {
+    color: var(--orange-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-red {
+    color: var(--red-color);
+}
 /* End Color */
-/* Start Padding & Margin */
+/* End Padding & Margin & Flex Properties & Grid Properties */
 .p-10 {
     padding: 10px;
 }
@@ -76,6 +85,9 @@
 .mt-20 {
     margin-top: 20px;
 }
+.mb-5 {
+    margin-bottom: 5px;
+}
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -91,7 +103,10 @@
 .gap-20 {
     gap: 20px;
 }
-/* End Padding & Margin */
+.wrap {
+    flex-wrap: wrap;
+}
+/* End Padding & Margin & Flex Properties & Grid Properties */
 /* Start Position */
 .relative {
     position: relative;
@@ -107,8 +122,14 @@
 .fs-14 {
     font-size: 14px;
 }
+.fs-13 {
+    font-size: 13px;
+}
 .fs-15 {
     font-size: 15px;
+}
+.fs-25 {
+    font-size: 25px;
 }
 .space-between {
     justify-content: space-between;
